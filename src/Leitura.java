@@ -10,5 +10,7 @@ public class Leitura {
         System.out.println("Qual o ano de lançamento?");
         int anoLancamento = leitura.nextInt();
         System.out.println("Ano de lançamento: " + anoLancamento);
+
+        leitura.close();
     }
 }
